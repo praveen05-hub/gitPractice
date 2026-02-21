@@ -32,6 +32,13 @@ class PdfHomePage extends StatelessWidget {
       pw.Page(
         theme: pw.ThemeData.withFont(
           base: tamilFont, // required for Tamil rendering
+
+
+
+
+
+
+
         ),
         pageFormat: PdfPageFormat.a4,
         build: (pw.Context context) {
